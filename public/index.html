@@ -1,0 +1,154 @@
+<html lang="en">
+<head><title>Ship Golf Clubs | Ship Sticks</title>
+
+<link href="css/v4.css" media="all" rel="stylesheet">
+<link href="css/shipsticks.css" media="all" rel="stylesheet">
+<link href="css/main.css?y=1" media="all" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" media="all">
+
+<link href="//cdn.shipsticks.com/assets/favicon-6f9c8308fdbbc8101341f72515009b00.ico?v=1" rel="icon" type="image/x-icon">
+<link href="//cdn.shipsticks.com/assets/favicon_apple_v1-c5bd4438dc7018632dd5980b5240fd97.png" rel="apple-touch-icon">
+
+</head>
+
+
+<body class="shipsticks  homepage " role="document">
+
+  <header class="header" id="home">
+    <nav class="navbar navbar-inverse navbar-fixed-top scrolled" id="main-nav" style="top: auto;">
+      <div class="container">
+        
+        <div class="row" id="scrolled-menu-wrapper">
+          <div class="col-md-12" style="padding: 0 0 0 10px;">
+            <div class="navbar-header">
+              <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+              <a class="navbar-brand scrolled-menu logo image-link" href="/" style="display: block;"><img alt="Shipsticks logo drkbg" id="logo" src="//cdn.shipsticks.com/assets/v5/sticks/ShipSticks_logo_drkbg-ab3cfaa168d89b609141f3db66399fed.png"></a>
+              <a class="navbar-brand scrolled-menu nav-logo image-link-two" href="/" style="display: block;"><img alt="Nav Logo" id="nav-logo" src="//cdn.shipsticks.com/assets/v4/text-logo-dark-bg-b4b2c1a8fd374fbe15ff482dc3f04c30.png"></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container slogan-wrapper white text-center" id="banner">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="no-margin-bottom-md">Simplify The Way You Travel</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12"><h3 id="selected-package-home"></h3><br></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 text-center"><a class="btn btn-primary segmentCTA newShipBtn" data-segment-brand="Ship Sticks" href="#" id="launch-calc">Launch Calculator</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12"><h4></h4><br><br><br></div>
+      </div>
+      
+    </div>
+  </header>
+
+  <div class="modal fade" id="calculator" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal" type="button">x</button>
+          <div class="heading text-center">
+            <h4>Package Calculator</h4>
+          </div>
+          <div class="heading text-center">
+            <h5 id="selected-package-modal"></h5>
+          </div>
+        </div>
+
+        <form accept-charset="UTF-8" class="form-stacked" id="calculator-form" method="post">
+          <div class="modal-body">
+            <fieldset>
+              <div class="row">
+                <div class="col-md-12">
+                  <h5 class="calculator-errors capitalize danger text-center"></h5>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="pkg_width">Width</label>
+                    <span class="mandatory"> *</span>
+                    <div class="controls">
+                      <input autofocus="autofocus" class="form-control input-lg data-hj-whitelist" id="pkg_width" name="product[width]" required="required" size="30" type="number">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="pkg_length">Length</label>
+                    <span class="mandatory"> *</span>
+                    <div class="controls">
+                      <input autofocus="autofocus" class="form-control input-lg data-hj-whitelist" id="pkg_length" name="product[length]" required="required" size="30" type="number">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="pkg_height">Height</label>
+                    <span class="mandatory"> *</span>
+                    <div class="controls">
+                      <input autofocus="autofocus" class="form-control input-lg data-hj-whitelist" id="pkg_height" name="product[height]" required="required" size="30" type="number">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="pkg_weight">Weight</label>
+                    <span class="mandatory"> *</span>
+                    <div class="controls">
+                      <input autofocus="autofocus" class="form-control input-lg data-hj-whitelist" id="pkg_weight" name="product[weight]" required="required" size="30" type="number">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="pkg_height">Package Type</label>
+                    <div class="controls">
+                      <select name="product[type]" id="pkg_type" class="form-control input-lg data-hj-whitelist select-lg">
+                        <option value="">Any</option>
+                        <option value="Golf">Golf</option>
+                        <option value="Luggage">Luggage</option>
+                        <option value="Ski">Ski</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <div class="modal-footer">
+            <div class="row">
+              <div class="col-md-12">
+                <input class="btn btn-primary btn-black btn-lg col-xs-12 col-sm-12 col-md-12 col-lg-12" id="calculator-form-submit" name="commit" type="submit" value="Calculate">
+              </div>
+            </div>
+            
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/v4.js"></script>
+  <script type="text/javascript" src="js/calc.js"></script>
+</body>

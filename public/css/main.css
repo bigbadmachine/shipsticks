@@ -1,0 +1,504 @@
+
+a#launch-calc {
+  font-size:20px;
+  padding:5px 5px;
+  margin:0 20px;
+  width:280px;
+  border-radius:4px;
+  /*padding:10px 20px 11px 20px;*/
+  background-color:#5fd063;
+  border-color:#5fd063
+}
+
+.select-lg {
+  /*font-size: 20px;*/
+}
+
+span.selected-package {
+  color: #4fab55;
+  border: 1px dotted #4fab55;
+  padding: 5px 20px;
+  margin: auto;
+}
+
+header.header {
+  background-image: url("//cdn.shipsticks.com/assets/v4/background-2ac5df708db296e66e510c2da8c781a0.png");
+  background-size: cover;
+}
+#navbar .current {
+  border-bottom: 2px solid #5fd063 !important;
+}
+#navbar span.uline {
+  padding-bottom: 4px;
+}
+#navbar .uline:hover {
+  border-bottom: 2px solid #5fd063 !important;
+}
+/*#navbar .uline:active {
+  border-bottom: 2px solid  !important;
+}*/
+#navbar .uline:focus {
+  border-bottom: 2px solid #5fd063 !important;
+}
+#navbar a.main-nav-link:not(.no-hover):hover {
+  color: #5fd063 !important;
+}
+#navbar ul li a.current {
+  color: #5fd063 !important;
+}
+.login-registration-madal .nav-tabs li.active {
+  border-bottom: 3px solid #4fab55 !important;
+  color: #4fab55 !important;
+}
+.login-registration-madal .nav-tabs li.active a {
+  color: #4fab55 !important;
+}
+.login-registration-madal .sign-in-button {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+  box-shadow: 0px 3px 0px 0px #4a944d;
+}
+.login-registration-madal #register-submit {
+  background-color: #5fd063 !important;
+  border-color: #5fd063 !important;
+  box-shadow: 0px 3px 0px 0px #4fab55;
+}
+a.modal-link {
+  color: #4fab55 !important;
+}
+#ship-today.desktop-ship {
+  background-color: #5fd063 !important;
+  font-size: 16px !important;
+  //margin-left: 50px !important;
+  box-shadow: 0px 3px 0px 0px #4fab55;
+  text-transform: none;
+}
+#ship-today.desktop-ship:hover {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.step a, .benifit-section-text a {
+  color: #4fab55;
+}
+.blog-section {
+  background-image: url("//cdn.shipsticks.com/assets/home_page_v_4.7/bg_blog-4659367e464e679c44fb5630a33f7477.png");
+}
+.newShipBtn, .joinNowBtn, .referNowBtn {
+  background-color: #5fd063;
+  border-color: #5fd063;
+  box-shadow: 0px 3px 0px 0px #4fab55;
+}
+.newShipBtn, .joinNowBtn, .referNowBtn:hover {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.newShipBtn, .joinNowBtn, .referNowBtn:active {
+  background-color: #4a944d !important;
+  border-color: #4a944d !important;
+}
+.btn-primary:active {
+  background-color: #4a944d !important;
+  border-color: #4a944d !important;
+}
+.btn-primary:not(.btn-facebook):hover {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.btn-primary:focus {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.newFadedBtn {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+  box-shadow: 0px 3px 0px 0px #4a944d;
+}
+.btn-ship {
+  background-color: #5fd063;
+  border-color: #5fd063;
+  box-shadow: 0px 3px 0px 0px #4fab55;
+}
+.btn-ship:hover {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.btn-ship:active {
+  background-color: #4a944d !important;
+  border-color: #4a944d !important;
+}
+.btn-ship:focus {
+  background-color: #4a944d !important;
+  border-color: #4a944d !important;
+}
+.btn-call {
+  background-color: #5fd063;
+  border-color: #5fd063;
+  box-shadow: 0px 3px 0px 0px #4fab55;
+}
+.btn-call:hover {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.btn-call:active {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.btn-call:focus {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.btn-email {
+  background-color: #5fd063;
+  border-color: #5fd063;
+  box-shadow: 0px 3px 0px 0px #4fab55;
+}
+.btn-email:hover {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.btn-email:active {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.btn-email:focus {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.chat-button {
+  background-color: #5fd063;
+  border-color: #5fd063;
+  box-shadow: 0px 3px 0px 0px #4fab55;
+}
+.chat-button:hover {
+  background-color: #4fab55;
+  border-color: #4fab55;
+}
+.chat-button:focus {
+  background-color: #4fab55 !important;
+  border-color: #4fab55;
+}
+.chat-button:active {
+  background-color: #4fab55 !important;
+  border-color: #4fab55;
+}
+.chatbox {
+  box-shadow: -1px -2px 3px #5fd063;
+}
+.chatbox .chat-headers {
+  background-color: #5fd063;
+  background: #5fd063;
+}
+section.statistics {
+  background-image: url("//cdn.shipsticks.com/assets/home_page_v_4.7/statisticks-bg-d8d0a539d4e6e57e02b88c5e7f296b76.png");
+}
+.form-control:focus {
+  outline: none;
+  border-color: #4fab55 !important;
+  box-shadow: 0 0 10px #5fd063 !important;
+  -webkit-font-smoothing: antialiased;
+}
+.alert-success {
+  background-color: #4fab55;
+  border-color: #4fab55;
+}
+section .news-container .news .published-date {
+  background: #5fd063 none repeat scroll 0 0;
+}
+.blog-title {
+  min-height: 38px;
+}
+.widget_button:hover {
+  background-color: #4fab55 !important;
+}
+.other_brand_icon>img {
+  height: 56px;
+  margin-right: 20px;
+}
+header.header#about {
+  background: url("//cdn.shipsticks.com/assets/v4/about/aboutUsHeaderImage-c434e360ec0110aec0d83fdc0613df0e.png");
+  background-position: center;
+  background-size: cover;
+}
+header.header#how_it_works {
+  background: url("//cdn.shipsticks.com/assets/v4/how_it_works/headerImage-6db716eaa9038b8dcbcca203fe48aa4a.png");
+  background-position: bottom;
+  background-size: cover;
+}
+header.header#refer {
+  background: url("//cdn.shipsticks.com/assets/v4/refer_a_friend/shipsticks/refer_a_friend_bg-a082f9cab5f4f44a185f277c39b1088a.png");
+  background-position: center;
+  background-size: cover;
+}
+.milestone-img {
+  background-image: url("https://s3.amazonaws.com/ss-cdn/brand-assets/shipsticks/v4/about/dot.png") !important;
+}
+.milestone-img:hover {
+  background-image: url("//cdn.shipsticks.com/assets/v5/sticks/big_dot_green-f53a43e5ed1b8ad93e54cad157a6ea06.png") !important;
+}
+.btn-primary:not(.btn-facebook) {
+  background-color: #5fd063 !important;
+  border-color: #5fd063 !important;
+  border-radius: 4px;
+  text-transform: none !important;
+  box-shadow: 0 3px 0 0 #4fab55;
+  font-size: 15px;
+}
+.btn-primary:hover {
+  background-color: #4fab55;
+  border-color: #4fab55;
+}
+.deviseLink {
+  color: #4fab55;
+}
+.how-link {
+  color: #5fd063;
+}
+.typeahead__dropdown > li.active > a, .typeahead__dropdown > li > a:focus, .typeahead__dropdown > li > a:hover, .typeahead__list > li.active > a, .typeahead__list > li > a:focus, .typeahead__list > li > a:hover {
+  background-color: #5fd063 !important;
+}
+.fa-check-circle {
+  color: #5fd063 !important;
+}
+ul.how-it-works-ul {
+  background-color: #FFFFFF !important;
+  margin-bottom: 0;
+}
+
+i.fa.fa-check {
+  color: #5fd063 !important;
+}
+i.fa.fa-check.fa-stack-1x.white {
+  color: #ffffff !important;
+}
+.shipping-label-modal-trigger {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.cont_us_link {
+  color: #4fab55 !important;
+}
+#contact-form-send {
+  background-color: #5fd063 !important;
+  border-color: #5fd063 !important;
+  box-shadow: 0 3px 0 0 #4fab55;
+  border-radius: 3px;
+}
+.arrow_box {
+  background-image: url("//cdn.shipsticks.com/assets/v5/skis/step1_ski_expand-84e100c525bb239b998a4639b18dc228.png");
+}
+.arrow_box_one {
+  background-image: url("//cdn.shipsticks.com/assets/v5/skis/step2_ski_expand-689065d56a3380ce4e0ccf2f6ec69697.png");
+}
+.arrow_box_two {
+  background-image: url("//cdn.shipsticks.com/assets/v5/skis/step3_ski_expand-2194b93f15554336387f78baf682c63e.png");
+}
+.arrow_box_three {
+  background-image: url("//cdn.shipsticks.com/assets/v5/skis/step4_ski_expand-b9076d52354e73ee2457a2da2d772b5d.png");
+}
+.ss-green {
+  color: #4fab55 !important;
+}
+.login-registration-madal input[type="checkbox"]:checked + label::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 6px;
+  background: rgba(0, 0, 0, 0);
+  top: 7px;
+  left: 4px;
+  border: 2px solid #4fab55;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.login-registration-madal input[type="checkbox"]:checked + label:before {
+  border-color: #4fab55 !important;
+}
+.term-and-condition a{
+  color: #4fab55 !important;
+}
+.already-have-an-account a{
+  color: #4fab55 !important;
+}
+.login-registration-madal .reset-password-link a {
+  color: #4fab55 !important;
+}
+.typeahead__container .typeahead__field .ac-loader {
+  color: #4fab55 !important;
+}
+.tr-link {
+  color: #4fab55 !important;
+}
+body section a.help-icon-popover {
+  background: #4fab55 none repeat scroll 0 0 !important;
+}
+.temp-btn {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+nav.scrolled #navbar a.current {
+  color: #5fd063 !important;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #ship-today.desktop-ship {
+    background-color: transparent !important;
+    box-shadow: 0 0 0 0 transparent !important;
+  }
+  nav.scrolled #navbar a:hover {
+    color: #4fab55 !important;
+  }
+}
+
+@media (max-width: 770px) {
+  #navbar ul li a:hover {
+    color: #4fab55 !important;
+  }
+}
+
+.carousel .left-arrow:hover {
+  background-image: url("//cdn.shipsticks.com/assets/partners/shipsticks/arrowLeftOn-8d2ab0487a3e17235af03fdc2ff1f4f3.png");
+}
+
+.carousel .right-arrow:hover {
+  background-image: url("//cdn.shipsticks.com/assets/partners/shipsticks/arrowRightOn-068c6a199e7e284ce29a53d3fb0525e7.png");
+}
+.progress-indicator>li.completed {
+  color: #4fab55 !important;
+}
+.progress-indicator>li.completed .bubble {
+  color: #4fab55 !important;
+}
+.progress-indicator>li.completed .bubble:after, .progress-indicator>li.completed .bubble:before {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+.progress-indicator>li.active .bubble:after, .progress-indicator>li.active .bubble:before {
+  background-color: #4fab55 !important;
+  border-color: #4fab55 !important;
+}
+@media (max-width: 770px) {
+  #navbar .uline:active {
+    border-bottom: none !important;
+  }
+  #navbar .uline:hover {
+    border-bottom: none !important;
+  }
+  #navbar .uline:focus {)
+    border-bottom: none !important;
+  }
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 1px solid #4fab55 !important;
+}
+.clearfix .address-search input[type="search"]:focus {
+  border-color: #4fab55 !important;
+  box-shadow: none !important;
+}
+.address-search select:focus {
+  border-color: #4fab55 !important;
+  box-shadow: none !important;
+}
+.pagination a {
+  color: #4fab55;
+}
+#complete_registration #terms-checkbox a{
+  color: #4fab55 !important;
+}
+#pro-note .pro-note-header{
+  background-color: #4fab55;
+  border-radius: 0px;
+  color: white;
+  padding: 15px;
+}
+#pro-note .consumer-note-cross{
+  background-color: transparent;
+  color: black;
+  opacity: 1;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-top: 0px;
+  text-shadow: none;
+  font-weight: 400;
+}
+#pro-note ul{
+  padding-left: 20px;
+}
+#pro-note .modal-body{
+  padding-left: 20px;
+  padding-left: 0px;
+  margin-left: 15px;
+  padding-top: 27px;
+}
+#pro-note p{
+  color: #242424;
+}
+.campaign-modal form input:focus {
+  border-color: #4fab55;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: #4fab55 !important;
+}
+.form-control:not(.btn-primary) {
+  box-shadow: none !important;
+}
+@media (max-width: 991px) {
+  #welcomeModal .modal-content, #welcomeModalConfirm .modal-content, #welcomeModalEmailReject .modal-content {
+    background-image: none !important;
+    background-color: #ffffff !important;
+  }
+}
+#welcomeModal .modal-content, #welcomeModalConfirm .modal-content, #welcomeModalEmailReject .modal-content {
+  background-image: url(//cdn.shipsticks.com/assets/v5/sticks/shipsticks_welcomemodal_bg-b3e44f2932b5a4a4f4c222f54cd5d74f.png);
+}
+.campaign-modal #lead-errors {
+  background-color: red;
+}
+.answer-box{
+  display: none;
+}
+.refer_color{
+  color:#E97E50!important;
+}
+
+#refer-a-friend .mrg-top-15-center{
+  margin: 15px auto 25px auto;
+}
+#refer-a-friend .mrg-btm-15-center {
+  margin: 0px auto 25px auto;
+}
+#refer-a-friend .refer_card img{
+  height:149px;
+  margin-top:28px;
+  margin-right:76px;
+}
+#refer-a-friend .savings_card img{
+  height:165px;
+  margin-top:14px;
+}
+#refer-a-friend p {
+  color:#242424!important;
+}
+.baner-signin-dev{
+  margin-top: 12px;
+}
+.baner-signin-dev h5{
+  margin: 0px 0 -12px 0;
+}
+.banner-sign-in{
+  color:#FFFFFF !important;
+  text-decoration:underline;
+}
+
+
+@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}
+
+.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}
+
+
+
