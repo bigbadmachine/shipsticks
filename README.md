@@ -1,11 +1,9 @@
 # ShipSticks.com Code Test
 
-Back-End
-———————-
+### Back-End
 Directions: Build a minimal API, using Rails and MongoDB, for our products
 
-Front-End
-————————-
+### Front-End
 Build a calculator, using HTML, CSS, and JavaScript, that takes dimensional inputs and weight from the user and returns the product that matches our products in the DB. Use the above API to fill the results.
 
 
@@ -45,6 +43,8 @@ Start the Rails app:
     bundle exec rails server
 
 App should be running at [http://localhost:3000](http://localhost:3000). 
+
+
 
 
 ## API
@@ -136,6 +136,7 @@ DELETE /products/:id
 
 * Error Response
   * Code: 404 NOT FOUND
+
 
 
 ## Running Tests
